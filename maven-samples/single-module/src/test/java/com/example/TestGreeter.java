@@ -40,11 +40,5 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
 
-
-    @Test
-  public void greetShouldIncludeGreetingMessageSunday() {
-    String someone = "World, Happy Weekend 14-Aug-2022";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 }
