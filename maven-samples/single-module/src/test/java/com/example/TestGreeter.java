@@ -42,7 +42,7 @@ public class TestGreeter {
 
 
     @Test
-  public void greetShouldIncludeGreetingMessage() {
+  public void greetShouldIncludeGreetingMessageSunday() {
     String someone = "World, Happy Weekend 14-Aug-2022";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
